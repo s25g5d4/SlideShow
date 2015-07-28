@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="詩乃我老婆">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <title>圖片輪播─使用 HTML Canvas</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <script>
+      (function () {
+        var main = 'scripts/main';
+        var rjs = 'scripts/require.js';
+        var scriptElem;
+
+        if (typeof process === 'object' && Object.prototype.toString.call(process) === '[object process]') {
+          Function('this.isNode = true')();
+          document.addEventListener('DOMContentLoaded', function loaded() {
+            document.querySelector('div').style.display = 'none';
+          })
+          require(main);
+        }
+        else {
+          scriptElem = document.createElement('script');
+          scriptElem.src = rjs;
+          scriptElem.async = true;
+          scriptElem.dataset.main = main;
+          document.querySelector('head').appendChild(scriptElem);
+        }
+      }());
+    </script>
+  </head>
+  <body>
+    <canvas width="1" height="1"></canvas>
+    <div><img src="images/loading.gif">&nbsp;請等待圖片載入……</div>
+  </body>
+</html>

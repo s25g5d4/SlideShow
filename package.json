@@ -1,0 +1,15 @@
+{
+  "name": "SlideShow",
+  "version": "0.0.0",
+  "description": "Full window slideshow for web or Electron(Atom-Shell)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "s25g5d4",
+  "license": "MIT",
+  "dependencies": {
+    "bezier-easing": "~1.1.0",
+    "async": "~1.4.0"
+  }
+}
