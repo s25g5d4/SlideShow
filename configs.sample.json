@@ -1,0 +1,11 @@
+{
+  "images": [
+    "pictures/1.jpg",
+    "pictures/2.jpg"
+  ],
+  "animationTime": 1000,
+  "slideTime": 5000,
+  "timing": [0.25, 0.1, 0.25, 1.0],
+  "random": true,
+  "showProgress": true
+}
