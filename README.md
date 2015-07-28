@@ -20,7 +20,7 @@ and is capable with [Electron](http://electron.atom.io/), the cross platform
 desktop environment for web technologies.
 
 # Usage
-rename `configs.sample.json` to `configs.json`, and configure as following:
+Rename `configs.sample.json` to `configs.json`, and configure as following:
 
 ```javascript
 {
