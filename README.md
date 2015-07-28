@@ -3,6 +3,9 @@ Full window slideshow for web and [Electron](http://electron.atom.io/).
 
 Check out my online [example](https://dl.dropboxusercontent.com/u/55351012/SlideShow/index.html)!
 
+Disclaimer: I don't own any picture used in example, they were collected from
+the Internet, mostly from pixiv and konachan.
+
 # Technology
 SlideShow uses
 
@@ -46,9 +49,9 @@ rename `configs.sample.json` to `configs.json`, and configure as following:
 }
 ```
 
-It's pure static pages, you can put it anywhere and open with browsers, or use
+It's pure static page, you can put it anywhere and open with browsers, or use
 with Electron.
 
 For Electron only, option `"imageDir": "pictures/"` can make SlideShow
 automatically scan folder `pictures` and load all images without manually
-adding filenames.
+adding them.
