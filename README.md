@@ -1,6 +1,5 @@
 # SlideShow
 Full window slideshow for web and [Electron](http://electron.atom.io/).
-
 Check out my online [example](https://dl.dropboxusercontent.com/u/55351012/SlideShow/index.html)!
 
 Disclaimer: I don't own any picture used in example, they were collected from
